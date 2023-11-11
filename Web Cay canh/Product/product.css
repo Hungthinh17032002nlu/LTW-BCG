@@ -1,6 +1,3 @@
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +33,7 @@ h1 {
 #product-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: auto; 
+    grid-auto-rows: auto;
     grid-gap: 20px;
     padding: 20px;
 }
@@ -79,7 +76,7 @@ button {
     cursor: pointer;
     transition: transform 0.3s; /* Thêm hiệu ứng chuyển động 0.3s */
 }
-  
+
 
 .favorite-button:hover,
 .buy-now-button:hover,
@@ -108,9 +105,3 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
-
-
-
-
-
