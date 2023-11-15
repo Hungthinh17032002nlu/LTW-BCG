@@ -23,7 +23,7 @@ header {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 20.5px;
 }
 
 h1 {
@@ -110,9 +110,9 @@ button {
 
 #footer {
     width: 100%;
-    background: #25751c;
+    background: #174913;
     height: 322px;
-    margin-top: 338px;
+    margin-top: 0px;
     padding: 0px 63px;
     padding-top: 57px;
     display: flex;
