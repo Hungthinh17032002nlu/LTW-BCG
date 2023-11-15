@@ -154,6 +154,12 @@ padding: 0 px 30 px;
     justify-content: space-between;
     align-items: center;
 }
+#footer .box .logo{
+    margin-top: 15px;
+    display: block;
+    margin-right: 100px;
+
+}
 #logos {
     margin-left:-280px;
 

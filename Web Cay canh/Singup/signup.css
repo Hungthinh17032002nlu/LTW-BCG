@@ -183,6 +183,11 @@ body {
 #footer .box .quick-menu {
     margin-top: 40px;
 }
+#footer .box .logo{
+    display: flex;
+    margin-right: 100px;
+
+}
 
 #footer .box .quick-menu .item {
     margin-bottom: 12px;

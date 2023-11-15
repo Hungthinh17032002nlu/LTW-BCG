@@ -13,6 +13,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+#footer .box .logo{
+    margin-top: 15px;
+    display: block;
+    margin-right: 100px;
+
+}
+
 
 .product {
     width: 30%; /* Điều chỉnh kích thước của mỗi sản phẩm tùy ý */
