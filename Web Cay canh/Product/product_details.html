@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danh Mục Sản Phẩm</title>
+    <title>Chi tiết Sản Phẩm</title>
     <!-- Bootstrap CSS -->
 
-    <link href="product.css" rel="stylesheet">
+    <link href="product.details.css" rel="stylesheet">
+
 </head>
 <body>
 <!--  <header>-->
+
 <div id="wrapper">
     <div id="header">
         <a href="" class="logo">
@@ -61,25 +63,107 @@
     <header>
         <h1>Danh Mục Sản Phẩm Cây Giống</h1>
     </header>
-    //
-    <div class="product-details">
-        <div class="product-image">
-            <img src="product-image.jpg" alt="Product Image">
-        </div>
-        <div class="product-info">
-            <h2 class="product-name">Tên Sản Phẩm</h2>
-            <p class="product-description">Mô tả ngắn về sản phẩm. Mô tả ngắn về sản phẩm.</p>
-            <p class="product-price">$19.99</p>
-            <button class="add-to-cart-btn">Thêm vào giỏ hàng</button>
+
+      <div class="product">
+
+         <div class="product-container">
+               <img src="imgCG/pr_oiruotdo.png" alt="Hình ảnh cây giống" class="product-image">
+             <h1>Ổi ruột đỏ Bến Cát</h1>
+             <div class="product-info">
+                  <h2>Giá: $50</h2>
+                  <h3>Mô Tả:</h3>
+                <p class="product-description">
+                Ổi đỏ Bến Cát là giống ổi mới còn lạ với rất nhiều người, nó mang nhiều ưu điểm tương
+                tự giống ổi Đài Loan ruột trắng như phát triển cây và mang trái tương đương,
+                có ruột màu đỏ rất đẹp và trái không thua kém gì các giống ổi trong nước.
+                Về độ ngon ngọt tương đương như ổi Đài Loan. Giống này trồng 8 tháng là có trái.
+                </p>
+                 <h3>Thông Tin Chi Tiết:</h3>
+                      <ul>
+                        <li><strong>Loại cây:</strong> Cây ăn quả</li>
+                        <li><strong>Thời gian trưởng thành:</strong> 8 tháng</li>
+                        <li><strong>Điều kiện trồng:</strong> Ánh sáng mặt trời đầy đủ, đất pha trộn có dinh dưỡng</li>
+                      </ul>
+
+                 <h3>Chính Sách Giao Hàng:</h3>
+                    <p>Chúng tôi cam kết giao hàng đến tận nơi của bạn trong vòng 7 ngày làm việc.</p>
+                <form action="process_order.php" method="post">
+                <label for="quantity">Số Lượng:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                    <button class="favorite-button">Yêu thích</button>
+                    <button class="buy-now-button">Mua ngay</button>
+                    <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+                    <br>
+                </form>
+
+            </div>
+
+
+
+        <!-- Phần Đánh giá và Nhận xét -->
+            <div class="reviews-container">
+            <h2>Đánh giá và Nhận xét</h2>
+
+            <!-- Hiển thị đánh giá từ khách hàng -->
+            <div class="user-review">
+                <h4>Người dùng 1</h4>
+                <p>Đánh giá: 5/5</p>
+                <p>Nhận xét: Cây ổi rất tốt, trái ngon và đẹp.</p>
+            </div>
+             </div>
+        <div class="review-form">
+        <h3>Thêm Đánh Giá Của Bạn</h3>
+        <form action="#" method="post">
+            <label for="user-name">Tên của bạn:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="rating">Đánh giá:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5/5</option>
+                <option value="4">4/5</option>
+                <option value="3">3/5</option>
+                <option value="2">2/5</option>
+                <option value="1">1/5</option>
+            </select>
+
+            <label for="review">Nhận xét của bạn:</label>
+            <textarea id="review" name="review" required></textarea>
+
+            <button type="submit">Gửi Đánh Giá</button>
+        </form>
         </div>
     </div>
 
 
+    </div>
+
+    <!-- Phần Sản phẩm liên quan -->
+    <div class="related-products">
+        <h4>Sản Phẩm Liên Quan</h4>
+
+        <div class="related-product">
+            <img src="imgCG/pr_1.png" alt="Sản phẩm liên quan 1">
+            <h3>Tên Sản Phẩm 1</h3>
+            <p>Giá: $40</p>
+        </div>
+
+        <div class="related-product">
+            <img src="imgCG/pr_2.png" alt="Sản phẩm liên quan 2">
+            <h3>Tên Sản Phẩm 2</h3>
+            <p>Giá: $45</p>
+        </div>
+
+        <!-- Thêm các sản phẩm liên quan khác tại đây -->
 
 
 
 
-    <footer id="footer">
+
+
+
+
+        <footer id="footer">
         <div class="box">
             <div class="logo">
                 <img src="assets/logo.png" alt="">
