@@ -1,3 +1,5 @@
+
+
 .payment-form{
     padding-bottom: 50px;
     font-family: 'Montserrat', sans-serif;
@@ -10,6 +12,12 @@
 .payment-form .content{
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
     background-color: white;
+}
+.back {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
 }
 
 .payment-form .block-heading{
