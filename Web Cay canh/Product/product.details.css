@@ -7,22 +7,23 @@
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
+
 }
 .product-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-#footer .box .logo{
-    margin-top: 15px;
-    display: block;
-    margin-right: 100px;
+.pr_lq{
+    background-color: #f1ec84;
+    text-align: center;
+    padding: 20px;
+
 
 }
 
-
 .product {
-    width: 30%; /* Điều chỉnh kích thước của mỗi sản phẩm tùy ý */
+    width: 100%; /* Điều chỉnh kích thước của mỗi sản phẩm tùy ý */
     margin-bottom: 20px;
 }
 
@@ -32,6 +33,7 @@ header {
     text-align: center;
     padding: 20px;
 }
+
 
 h1 {
     font-size: 36px;
@@ -44,6 +46,7 @@ h1 {
     grid-gap: 20px;
     padding: 20px;
 }
+
 
 
 .product {
@@ -62,11 +65,11 @@ h1 {
     max-width: 100%;
     max-height: 150px;
     width: auto;
-    border: 5px solid rgb(54, 17, 17)f1f; /* Màu và độ dày của viền */
+    border: 1px solid rgb(54, 17, 17) ; /* Màu và độ dày của viền */
     border-radius: 5px; /* Độ cong của viền */
 }
 
-.product:hover img {
+.product-container:hover img {
     transform: scale(1.1); /* Phóng to ảnh khi rê chuột vào sản phẩm */
 }
 
@@ -239,7 +242,7 @@ padding: 0 px 30 px;
 }
 #banner {
     width: 100%;
-    background-image: url("tim-mossholder-07uiqD9LS6U-unsplash.jpg") ;
+    background-image: url("") ;
     height: 550px;
     margin-top: 40px;
     display: flex;
@@ -309,4 +312,133 @@ padding: 0 px 30 px;
     left: 50%;
     transform:translateX(-50%);
 }
+/*css dt*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+.product-detail{
+    background-color: #1cbdb0;
+}
+.product-container {
+    max-width: 800px;
 
+    margin: auto;
+    text-align: center; /* Canh giữa nội dung */
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Khoảng cách giữa ảnh và tiêu đề */
+}
+
+.product-info {
+    margin-top: 20px;
+    text-align: left; /* Canh lề trái cho phần thông tin sản phẩm */
+}
+.product-description {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none; /* Ẩn chấm đầu dòng của danh sách */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục danh sách */
+}
+
+.reviews-container {
+    margin-top: 30px;
+}
+
+.user-review {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.user-review h4 {
+    margin-bottom: 5px;
+}
+
+.user-review p {
+    margin: 0;
+}
+
+.review-form {
+    margin-top: 30px;
+}
+
+.review-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.review-form textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+}
+
+.review-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.related-products {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.related-product {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.related-product img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.related-product h3 {
+    margin-top: 10px;
+}
+/*css */
+.related-products {
+    text-align: center;
+    margin: 20px;
+}
+
+.related-products h4 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.related-product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.related-product img {
+    max-width: 70%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.related-product h3 {
+    margin: 10px 0;
+}
+
+.related-product p {
+    font-weight: bold;
+    color: #333;
+}
