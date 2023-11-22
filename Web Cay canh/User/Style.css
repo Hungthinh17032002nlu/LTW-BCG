@@ -1,168 +1,119 @@
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
 * {
     margin: 0;
     padding: 0;
-    font: inherit;
+    box-sizing: border-box;
 }
-img,
-picture,
-svg,
-video {
-    display: block;
-    max-width: 100%;
-}
+
 body {
-    min-height: 100vh;
-    font-family: "Roboto", sans-serif;
     background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#footer .box .logo{
+    margin-top: 15px;
+    display: block;
+    margin-right: 100px;
+
 }
 
 
-/* style login */
-.login {
+.product {
+    width: 30%; /* Điều chỉnh kích thước của mỗi sản phẩm tùy ý */
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+.product img {
+    max-width: 100%;
+    max-height: 150px;
+    width: auto;
+    border: 5px solid rgb(54, 17, 17)f1f; /* Màu và độ dày của viền */
+    border-radius: 5px; /* Độ cong của viền */
+}
+
+.product:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi rê chuột vào sản phẩm */
+}
+
+.product-border {
+    border: 100px solid #831212; /* Màu và độ dày của viền */
+}
+.pagination {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: #f5f5f5;
 }
-.login__container {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.pagination button {
+    /* Thêm các thuộc tính CSS cho nút nếu cần */
+    margin: 0 5px; /* Khoảng cách giữa nút trang trước và nút trang sau */
 }
-.login__container h1 {
-    margin-bottom: 20px;
-    font-size: 2rem;
-    text-align: center;
-}
-.login__container form {
-    display: flex;
-    flex-direction: column;
-}
-.login__container form label {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-.login__container form input {
+
+button {
     padding: 10px;
-    border: 1px solid #f6dc5d;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.login__container form button {
-    padding: 10px;
+    margin: 5px;
     border: none;
     border-radius: 5px;
-    background: #379431;
-    color: #171608;
-    font-size: 1.2rem;
     cursor: pointer;
-}
-.login__container form button:hover {
-    background: #bb0d0d;
-}
-.login__container form a {
-    text-align: center;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #333;
-}
-.login__container form a:hover {
-    color: #555;
-}
-.login__registerButton {
-    margin-top: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    color: black;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: block;
-}
-/* style signup */
-
-
-.signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f5f5f5;
-    background-image: url('nen_01.png');
-    background-size: cover;
-    background-position: center;
-
-}
-.signup__container {
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-    background: #f8f8f2;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(224, 163, 163, 0.1);
-}
-.signup__container h1 {
-
-    margin-bottom: 20px;
-    font-size: 2rem;
-    text-align: center;
-}
-.signup__container form {
-    display: flex;
-    flex-direction: column;
-}
-.signup__container form label {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-.signup__container form input {
-    padding: 10px;
-    border: 1px solid #e0b818;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.signup__container form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #6ae16a;
-    color: #fff;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-.signup__container form button:hover {
-    background: #c91b1b;
-}
-.signup__container form a {
-    text-align: center;
-    font-size: 1.2rem;
-    text-decoration: none;
-    color: #333;
-}
-.signup__container form a:hover {
-    color: #555;
-}
-.signup__registerButton {
-    margin-top: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    color: black;
-    font-size: 1.2rem;
-    cursor: pointer;
-    display: block;
+    transition: transform 0.3s; /* Thêm hiệu ứng chuyển động 0.3s */
 }
 
 
+.favorite-button:hover,
+.buy-now-button:hover,
+.add-to-cart-button:hover {
+    transform: scale(1.1); /* Phóng to nút khi rê chuột vào */
+}
+
+.favorite-button {
+    background-color: #ff5722;
+    color: white;
+}
+
+.buy-now-button {
+    background-color: #2196F3;
+    color: white;
+}
+
+.add-to-cart-button {
+    background-color: #4CAF50;
+    color: white;
+}
 
 #footer {
     width: 100%;
@@ -182,11 +133,6 @@ body {
 
 #footer .box .quick-menu {
     margin-top: 40px;
-}
-#footer .box .logo{
-    display: flex;
-    margin-right: 100px;
-
 }
 
 #footer .box .quick-menu .item {
@@ -216,12 +162,7 @@ body {
     margin-top: 29px;
     color: #1cbdb0;
 }
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20.5px;
-}
+
 #header {
     width: 100%;
     height: 80px;
@@ -238,7 +179,7 @@ padding: 0 px 30 px;
 }
 .logo {
     float: right; /* Đặt logo bên phải */
-    margin-top: 0px; /* Điều chỉnh khoảng cách từ trên xuống */
+    margin-top: 50px; /* Điều chỉnh khoảng cách từ trên xuống */
 }
 
 #wrapper .search-text {
@@ -367,5 +308,27 @@ padding: 0 px 30 px;
     bottom: -35px;
     left: 50%;
     transform:translateX(-50%);
+}
+#user-section,
+#user-section1 {
+    margin: 50px auto; /* Điều chỉnh khoảng cách từ trên xuống */
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px; /* Điều chỉnh chiều rộng tối đa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#user-section h2,
+#user-section1 h2 {
+    margin-top: 15px;
+}
+
+#user-section img,
+#user-section1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
