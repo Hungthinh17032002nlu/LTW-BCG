@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết Sản Phẩm</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="product.details.css" rel="stylesheet">
+
+</head>
+<body>
+<!--  <header>-->
+
+<div id="wrapper">
+    <div id="header">
+        <a href="" class="logo">
+            <img src="imgCG/pr_logo7.png" height="200" width="200" alt="">
+        </a>
+        <div class="search-text">
+
+            <input type="searh" name="Tìm kiếm" placeholder="Tìm kiếm của bạn...">
+            <a href="#" class="search-btn">
+            </a>
+            <i class="fa fa-search"></i>
+        </div>
+        <div id="logos">
+
+        </div>
+        <div id="menu">
+            <div class="item">
+                <a href=""> Trang chủ</a>
+            </div>
+            <div class="item">
+                <a href=""> Sản phẩm</a>
+
+            </div>
+            <div class="item">
+                <a href=""> Blog</a>
+            </div>
+            <div class="item">
+                <a href="contact.html">
+                    <a href=""> Liên hệ</a>
+            </div>
+            <div class="item">
+                <a href=""> Đăng nhập </a>
+            </div>
+            <div class="item">
+                <a href=""> Đăng kí </a>
+            </div>
+        </div>
+        <div id="actions">
+            <div class="item">
+                <img src="imgCG/pr_lg.png" height="50" width="50"  alt="">
+            </div>
+
+            <div class="item">
+                <img src="imgCG/pr_cd.png" height="50" width="50" alt="">
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Danh Mục Sản Phẩm Cây Giống</h1>
+    </header>
+
+      <div class="product-detail">
+         <div class="product-container">
+             <section class="product">
+
+               <img src="imgCG/pr_oiruotdo.png" alt="Hình ảnh cây giống" class="product-image">
+             <h1>Ổi ruột đỏ Bến Cát</h1>
+             <div class="product-info">
+                  <h2>Giá: $50</h2>
+                  <h3>Mô Tả:</h3>
+                <p class="product-description">
+                Ổi đỏ Bến Cát là giống ổi mới còn lạ với rất nhiều người, nó mang nhiều ưu điểm tương
+                tự giống ổi Đài Loan ruột trắng như phát triển cây và mang trái tương đương,
+                có ruột màu đỏ rất đẹp và trái không thua kém gì các giống ổi trong nước.
+                Về độ ngon ngọt tương đương như ổi Đài Loan. Giống này trồng 8 tháng là có trái.
+                </p>
+                 <h3>Thông Tin Chi Tiết:</h3>
+                      <ul>
+                        <li><strong>Loại cây:</strong> Cây ăn quả</li>
+                        <li><strong>Thời gian trưởng thành:</strong> 8 tháng</li>
+                        <li><strong>Điều kiện trồng:</strong> Ánh sáng mặt trời đầy đủ, đất pha trộn có dinh dưỡng</li>
+                      </ul>
+
+                 <h3>Chính Sách Giao Hàng:</h3>
+                    <p>Chúng tôi cam kết giao hàng đến tận nơi của bạn trong vòng 7 ngày làm việc.</p>
+                <form action="process_order.php" method="post">
+                <label for="quantity">Số Lượng:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+                    <button class="favorite-button">Yêu thích</button>
+                    <button class="buy-now-button">Mua ngay</button>
+                    <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+                    <br>
+                </form>
+
+            </div>
+
+
+        <!-- Phần Đánh giá và Nhận xét -->
+            <div class="reviews-container">
+            <h2>Đánh giá và Nhận xét</h2>
+            <!-- Hiển thị đánh giá từ khách hàng -->
+            <div class="user-review">
+                <h4>Người dùng 1</h4>
+                <p>Đánh giá: 5/5</p>
+                <p>Nhận xét: Cây ổi rất tốt, trái ngon và đẹp.</p>
+            </div>
+             </div>
+        <div class="review-form">
+        <h3>Thêm Đánh Giá Của Bạn</h3>
+        <form action="#" method="post">
+            <label for="user-name">Tên của bạn:</label>
+            <input type="text" id="user-name" name="user-name" required>
+
+            <label for="rating">Đánh giá:</label>
+            <select id="rating" name="rating" required>
+                <option value="5">5/5</option>
+                <option value="4">4/5</option>
+                <option value="3">3/5</option>
+                <option value="2">2/5</option>
+                <option value="1">1/5</option>
+            </select>
+
+            <label for="review">Nhận xét của bạn:</label>
+            <textarea id="review" name="review" required></textarea>
+
+            <button type="submit">Gửi Đánh Giá</button>
+        </form>
+             </section>
+         </div>
+
+
+
+    <!-- Phần Sản phẩm liên quan -->
+          <div class= "pr_lq">
+           <h4>Sản Phẩm Liên Quan</h4>
+
+      </div>
+    <div class="product-detail">
+
+    <div class="related-products">
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_7.png" alt="Nhãn muộn Hà tây">
+                <h2>Cây Nhãn muộn Hà tây</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_6.png" alt="Nhãn hưng yên ">
+                <h2>Cây nhãn lồng Hưng Yên</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_1.png" alt="Đào">
+                <h2>Cây nhãn </h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_2.png" alt=" Cam phong">
+                <h2>Cây Cam phong</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm: cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_12.png" alt="Đào">
+                <h2>Cây hồng da tre </h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_13.png" alt="Đào">
+                <h2>Cây Nho hạ đen</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_14.png" alt="Đào">
+                <h2>Cây Na Đoài Loan</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_15.png" alt="Đào">
+                <h2>Cây nho ngón tay</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm: cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_18.png" alt="Đào">
+                <h2>Cây cóc thái</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_19.png" alt="Đào">
+                <h2>Cây chay rừng</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_20.png" alt="Đào">
+                <h2>Cây na dai</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_21.png" alt="Đào">
+                <h2>Cây vú sữa hoàng kim</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_22.png" alt="Đào">
+                <h2>Cây lê nâu hàn quốc</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_23.png" alt="Đào">
+                <h2>Cây chuối tím</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_24.png" alt="Đào">
+                <h2>Cây chuối thái</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+        <div class="related-product">
+            <section class="product">
+                <img src="imgCG/pr_25.png" alt="Đào">
+                <h2>Cây xoài tím thailan</h2>
+                <p>Giá: $8.99</p>
+                <p>Phân loại: cây ăn quả</p>
+                <p>Mô tả sản phẩm:  cây ăn quả ngon</p>
+                <button class="favorite-button">Yêu thích</button>
+                <button class="buy-now-button">Mua ngay</button>
+                <button class="add-to-cart-button">Thêm vào giỏ hàng</button>
+            </section>
+        </div>
+    </div>
+
+            <!-- Thêm các sản phẩm liên quan khác tại đây -->
+
+
+
+
+
+
+
+
+        <footer id="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+        </div>
+        <div class="box">
+            <h3>NỘI DUNG</h3>
+            <ul class="quick-menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </ul>
+        </div>
+        <div class="box">
+            <h3>LIÊN HỆ</h3>
+            <form action="">
+                <input type="text" placeholder="Địa chỉ email">
+                <input type="text" placeholder="Số điện thoại">
+                <button>Nhận tin</button>
+            </form>
+        </div>
+    </footer>
+
+
+</body>
+</html>
