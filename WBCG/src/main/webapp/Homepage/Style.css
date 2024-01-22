@@ -77,7 +77,7 @@
     display: flex;
 }
 #actions .item{
-    margin-left: 15px;
+    margin-left: 22px;
 }
 #banner {
     width: 100%;
@@ -332,7 +332,6 @@
     color:#fff;
 
 }
-
 #footer {
     width: 100%;
     background:#0f6848;
