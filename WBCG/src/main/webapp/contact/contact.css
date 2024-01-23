@@ -273,7 +273,10 @@ button {
 #footer .box {
     width: 250px;
     color: #fff;
-}
+    .logo img {
+        width: 100px; /* Đặt kích thước cho hình ảnh logo */
+        height: auto;
+    }
 
 #footer .box .quick-menu {
     margin-top: 40px;
