@@ -181,7 +181,7 @@ padding: 0 px 30 px;
 
 }
 .logo {
-    float: right; /* Đặt logo bên phải */
+    float: center; /* Đặt logo bên phải */
     margin-top: 50px; /* Điều chỉnh khoảng cách từ trên xuống */
 }
 
