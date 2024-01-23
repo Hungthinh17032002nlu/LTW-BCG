@@ -5,7 +5,7 @@
   <artifactId>vanthang3660</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>CakeBirthday Maven Webapp</name>
+  <name>WBCG Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>

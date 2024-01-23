@@ -6,12 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vanthang3660" />
-        <module name="Web-BCG" />
+        <module name="LapTrinhWeb" />
+        <module name="CakeBirthday" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Maven" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
