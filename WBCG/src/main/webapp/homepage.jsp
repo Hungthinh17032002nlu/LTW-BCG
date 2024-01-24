@@ -1,18 +1,19 @@
-<!doctype html>
-<html lang="en">
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<html>
 <head>
     <meta charset="UTF-8">Cảnh
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Web Cây Giống</title>
-    <link rel= "Stylesheet" href="../CSS/Style.css">
+    <link rel= "Stylesheet" href="CSS/Style.css">
 </head>
 <body>
 <div id="wrapper">
     <div id="header">
         <a href="" class="logo">
-            <img src="6894255.jpg" height="200" width="200" alt="">
+            <img src="Img/6894255.jpg" height="200" width="200" alt="">
         </a>
         <div class="search-text">
             <input type="searh" name="Tìm kiếm" placeholder="Tìm kiếm của bạn...">
@@ -32,7 +33,7 @@
                 <a href="../../webapp/Product/product.html"> Sản phẩm</a>
             </div>
             <div class="item">
-                <a href="../Blog/Blog.html"> Blog</a>
+                <a href="Blog.jsp"> Blog</a>
             </div>
             <div class="item">
                 <a href="../contact/contact2.html"> Liên hệ</a>
@@ -41,15 +42,15 @@
                 <a href="../../webapp/Login/Login.index.html"> Đăng nhập </a>
             </div>
             <div class="item">
-                <a href="../../webapp/Singup/singup.index.html"> Đăng kí </a>
+                <a href="singup.jsp"> Đăng kí </a>
             </div>
         </div>
         <div id="actions">
             <div class="item">
-                <a href="../../webapp/User/Index.html"><img src="icons8-user-50.png" height="50" width="50" alt=""></a>
+                <a href="homepage.jsp"><img src="Img/icons8-user-50.png" height="50" width="50" alt=""></a>
             </div>
             <div class="item">
-                <a href="../Cart/Cart.index.html"><img src="—Pngtree—shopping%20cart%20convenient%20icon_4637407%20(1).png" height="50" width="50" alt=""></a>
+                <a href="Cart.jsp"><img src="Img/—Pngtree—shopping%20cart%20convenient%20icon_4637407%20(1).png" height="50" width="50" alt=""></a>
             </div>
         </div>
     </div>
@@ -70,9 +71,9 @@
 
         </div>
         <div class="box-right">
-            <img src="../../webapp/Product/imgCG/pr_99.png" height="400" width="150" alt="">
-            <img src="../../webapp/Product/imgCG/pr_111.png" height="450" width="150" alt="">
-            <img src="../../webapp/Product/imgCG/pr_71.png" height="400" width="150" alt="">
+            <img src="Img/pr_81.png" height="400" width="150" alt="">
+            <img src="Img/pr_111.png" height="450" width="150" alt="">
+            <img src="Img/pr_71.png" height="400" width="150" alt="">
         </div>
         <div class="to-bottom">
             <a href="">
@@ -85,21 +86,31 @@
         <ul id="list-products">
             <div class="item">
                 <a href="../Cart/Cart.index.html">
-                    <img src="../../webapp/Product/imgCG/pr_59.png" height="280" width="280" alt="">
+                    <img src="Img/pr_59.png" height="280" width="280" alt="">
                 </a>
-                <div class="name">Cây bơ</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price">400.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_5.png" height="280" width="280" alt="">
                 <div class="stars">
 
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
+                        </span>
+                </div>
+                <div class="name">Cây bơ</div>
+                <div class="desc">Cây ăn quả</div>
+                <div class="price">400.000Đ</div>
+
+            </div>
+            <div class="item">
+                <img src="Img/pr_81.png" height="280" width="280" alt="">
+                <div class="stars">
+
+                        <span>
+                            <img src="Img/icons8-star-48.png" alt="">
+                        </span>
+                    <span>
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                 </div>
                 <div class="name">Cây Chanh tứ quý</div>
@@ -107,19 +118,19 @@
                 <div class="price"> 1.000.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_vusua.png" height="280" width="280" alt="">
+                <img src="Img/pr_vusua.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                 </div>
                 <div class="name">Vú sữa</div>
@@ -127,22 +138,22 @@
                 <div class="price"> 390.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_vaithieu.png" height="280" width="280" alt="">
+                <img src="Img/pr_vaithieu.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                 </div>
                 <div class="name">Vải thiều</div>
@@ -150,7 +161,7 @@
                 <div class="price">30.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_oiruotdo.png" height="280" width="280" alt="">
+                <img src="Img/pr_oiruotdo.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
                             <img src="icons8-star-48.png" alt="">
@@ -175,16 +186,16 @@
                 <div class="price">60.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_mitthai.png" height="280" width="280" alt="">
+                <img src="Img/pr_mitthai.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
 
 
@@ -194,10 +205,10 @@
                 <div class="price">200.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_oiDaiLoan.png" height="280" width="280" alt="">
+                <img src="Img/pr_oiDaiLoan.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
 
 
@@ -207,13 +218,13 @@
                 <div class="price"> 80.000Đ</div>
             </div>
             <div class="item">
-                <img src="../../webapp/Product/imgCG/pr_mancb.png" height="280" width="280" alt="">
+                <img src="Img/pr_mancb.png" height="280" width="280" alt="">
                 <div class="stars">
                         <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                         </span>
                     <span>
-                            <img src="icons8-star-48.png" alt="">
+                            <img src="Img/icons8-star-48.png" alt="">
                        </span>
 
 
@@ -260,21 +271,21 @@
             <ul id="list-comment">
                 <li class="item">
                     <div class="avatar">
-                        <img src="../Homepage/avatar.jpg" height="100  " width="100" alt="">
+                        <img src="Img/avatar.jpg" height="100  " width="100" alt="">
 
                     </div>
                     <div class="stars">
                             <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
                                 <img src="star.png" alt="">
@@ -289,24 +300,24 @@
                 </li>
                 <li class="item">
                     <div class="avatar">
-                        <img src="avatar_1.png" alt="">
+                        <img src="Img/avatar_1.png" alt="">
 
                     </div>
                     <div class="stars">
                             <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                     </div>
                     <div class="name">Trần Ngọc Sơn</div>
@@ -317,24 +328,24 @@
                 </li>
                 <li class="item">
                     <div class="avatar">
-                        <img src="avatar_1.png" alt="">
+                        <img src="Img/avatar_1.png" alt="">
 
                     </div>
                     <div class="stars">
                             <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                         <span>
-                                <img src="star.png" alt="">
+                                <img src="Img/star.png" alt="">
                             </span>
                     </div>
                     <div class="name">Nguyễn Trần Vi</div>
@@ -346,7 +357,7 @@
             </ul>
             <div class="next">
                 <a href="#">
-                    <img src="next.png" alt="">
+                    <img src="Img/next.png" alt="">
                 </a>
             </div>
         </div>
@@ -354,7 +365,7 @@
     <div id="footer">
         <div class="box">
             <div class="logo">
-                <img src="6894255.jpg" height="150" width="150" alt="">
+                <img src="Img/6894255.jpg" height="150" width="150" alt="">
             </div>
             <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
         </div>
@@ -388,4 +399,5 @@
 </div>
 </div>
 </body>
+</html>
 </html>
