@@ -214,7 +214,7 @@ header {
     border: 1px solid #da2929;
     border-radius: 8px;
     background-color: #f8f8f8;
-    background-image: url('nen_01.png');
+    background-image: url('../contact/nen_01.png');
     /*    background-size: cover;
         background-position: center;*/
 
@@ -273,98 +273,104 @@ button {
 #footer .box {
     width: 250px;
     color: #fff;
+
     .logo img {
         width: 100px; /* Đặt kích thước cho hình ảnh logo */
         height: auto;
     }
 
-#footer .box .quick-menu {
-    margin-top: 40px;
-}
+    #footer .box .quick-menu {
+        margin-top: 40px;
+    }
 
-#footer .box .quick-menu .item {
-    margin-bottom: 12px;
-}
+    #footer .box .quick-menu .item {
+        margin-bottom: 12px;
+    }
 
-#footer .box .quick-menu,
-#footer .box .item a {
-    color: #fff;
-    text-decoration: none;
-}
+    #footer .box .quick-menu,
+    #footer .box .item a {
+        color: #fff;
+        text-decoration: none;
+    }
 
-#footer .box form input {
-    width: 294px;
-    height: 42px;
-    background: transparent;
-    padding-left: 20px;
-    color: #e0b818;
-    margin-top: 30px;
-}
+    #footer .box form input {
+        width: 294px;
+        height: 42px;
+        background: transparent;
+        padding-left: 20px;
+        color: #e0b818;
+        margin-top: 30px;
+    }
 
-#footer .box form button {
-    background: #9d9110;
-    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-    width: 163px;
-    height: 30px;
-    margin-top: 29px;
-    color: #1cbdb0;
-}
-.contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #f5f5f5;
+    #footer .box form button {
+        background: #9d9110;
+        box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+        width: 163px;
+        height: 30px;
+        margin-top: 29px;
+        color: #1cbdb0;
+    }
 
-
-    background-image: url('nen_01.png'); /* Thay 'duong-dan-den-anh-nen.jpg' bằng đường dẫn đến ảnh nền của bạn */
-    background-size: cover; /* Để ảnh nền cover toàn bộ phần chứa */
-    background-position: center; /* Đặt vị trí ảnh nền ở giữa */
-    background-repeat: no-repeat; /* Không lặp lại ảnh nền */
-    padding: 20px; /* Tăng khoảng cách giữa nội dung và viền của phần chứa */
-}
-
-.contact__container {
-    width: 100%;
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.8); /* Đặt một màu nền cho phần chứa nội dung */
-
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f5f5f5;
 
 
-.contact__container form {
-    display: flex;
-    flex-direction: column;
-}
-.contact__container form label {
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-.contact__container form input {
-    padding: 10px;
-    border: 1px solid #e0b818;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-.contact__container form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background: #6ae16a;
-    color: #171608;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-.contact__container form button:hover {
-    background: #c91b1b;
-}
-.contact__container form a {
+        background-image: url('../contact/nen_01.png'); /* Thay 'duong-dan-den-anh-nen.jpg' bằng đường dẫn đến ảnh nền của bạn */
+        background-size: cover; /* Để ảnh nền cover toàn bộ phần chứa */
+        background-position: center; /* Đặt vị trí ảnh nền ở giữa */
+        background-repeat: no-repeat; /* Không lặp lại ảnh nền */
+        padding: 20px; /* Tăng khoảng cách giữa nội dung và viền của phần chứa */
+    }
+
+    .contact__container {
+        width: 100%;
+        max-width: 400px;
+        background-color: rgba(255, 255, 255, 0.8); /* Đặt một màu nền cho phần chứa nội dung */
+
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .contact__container form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__container form label {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .contact__container form input {
+        padding: 10px;
+        border: 1px solid #e0b818;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .contact__container form button {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #6ae16a;
+        color: #171608;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .contact__container form button:hover {
+        background: #c91b1b;
+    }
+
+    .contact__container form a {
     text-align: center;
     font-size: 1.2rem;
-    text-decoration: none;}
-
-
+    text-decoration: none;
+}

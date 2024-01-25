@@ -10,89 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1686ed30-269c-4d91-be9f-48be3a65724f" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/ProductDetailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Blog.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Cart.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/8380015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Cay-kim-ngan-thuy-sinh-to-dep-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100331.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100339.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100348.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100359.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100409.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100414.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/Screenshot 2023-11-01 100419.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/avatar_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-hanh-phuc-2-tang-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-luoi-ho-dai-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-monstera-albo-de-ban-255x255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-phat-tai-nui-3-than-255x255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-phu-quy-de-ban-dep-255x255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-truc-nhat-dep-255x255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/cay-xoai-cong-trinh-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/chau-da-yen-thao-to-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/hoa-cay-nguyet-que-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/icons8-back-100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/icons8-search-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/icons8-star-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/icons8-user-50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_111.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_59.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_71.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_81.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_mancb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_mitthai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_oiDaiLoan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_oiruotdo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_vaithieu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_vusua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/sen-da-giva-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/tim-mossholder-07uiqD9LS6U-unsplash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/trong-xoai-cong-trinh-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/xuong-rong-kim-ho-2-420x420.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/—Pngtree—shopping cart convenient icon_4637407 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/User.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/forgot_password.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/homepage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/singup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/contact.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/controllers/web/x.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/dao/ProductDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/db/DBProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/db/DBProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/db/JDBCConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/db/JDBCConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/entity/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/entity/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Blog/6894255.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/6894255.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Blog/Blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Blog/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Cart/6894255.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Cart/Cart.index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Cart/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/Cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Checkout/6894255.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Checkout/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Checkout/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/Checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Forgot_Password/forgot_password.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/forgot_password.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Forgot_Password/forgot_password.html" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Forgot_Password/forgot_password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Homepage/Style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Homepage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Homepage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/6894255.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/nen_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/nen_01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/pr_cd.png" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_cd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/pr_lg.png" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_lg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/pr_logo7.png" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/pr_logo7new.png" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo7new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/signup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/Singup/singup.index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/User/Index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/User/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/Style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/6894255.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/contact2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/nen_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_cd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_lg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_logo7.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +217,7 @@
       <workItem from="1706076168899" duration="411000" />
       <workItem from="1706180224371" duration="9620000" />
       <workItem from="1706193471123" duration="4000" />
-      <workItem from="1706201440104" duration="9067000" />
+      <workItem from="1706201440104" duration="9781000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -301,11 +227,30 @@
       <option name="project" value="LOCAL" />
       <updated>1706076427867</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1706210798575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706210798575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
