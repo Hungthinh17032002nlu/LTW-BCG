@@ -1,4 +1,6 @@
-
+<%@ page import="hcmuef.edu.fit.entity.Products" %>
+<%@ page import="java.util.List" %>
+<%@ page import="java.text.NumberFormat" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
@@ -85,155 +87,31 @@
         <h2>  Gợi ý hôm nay </h2>
         <ul id="list-products">
             <div class="item">
-                <a href="../Cart/Cart.index.html">
-                    <img src="Img/pr_59.png" height="280" width="280" alt="">
-                </a>
-                <div class="stars">
+                    <% List<Products> listProducts = (List<Products>) request.getAttribute("listProduct");
 
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
+if (listProducts != null && !listProducts.isEmpty()) {
+    for (Products p : listProducts) {
+%>
+                <div class="item">
+                    <img style="height: 260px; width: 290px" src="<%= p.getImages().get(0) %>" alt="">
+                    <div class="name">
+                        <h3><%= p.getName_product() %></h3>
+                    </div>
+                    <div class="desc">
+                        <h4><%= p.getCategory() %>VNĐ</h4>
+                    </div>
+                    <div class="price">
+                        <h4><%= p.getPrice() %>VNĐ</h4>
+                    </div>
                 </div>
-                <div class="name">Cây bơ</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price">400.000Đ</div>
-
-            </div>
-            <div class="item">
-                <img src="Img/pr_81.png" height="280" width="280" alt="">
-                <div class="stars">
-
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                </div>
-                <div class="name">Cây Chanh tứ quý</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price"> 1.000.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_vusua.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                </div>
-                <div class="name">Vú sữa</div>
-                <div class="desc"> Cây ăn quả</div>
-                <div class="price"> 390.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_vaithieu.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                </div>
-                <div class="name">Vải thiều</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price">30.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_oiruotdo.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="icons8-star-48.png" alt="">
-                        </span>
-
-
-                </div>
-                <div class="name">Ổi ruột đỏ</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price">60.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_mitthai.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-
-
-                </div>
-                <div class="name">Cây mít thái</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price">200.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_oiDaiLoan.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-
-
-                </div>
-                <div class="name">Ổi Đài Loan</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price"> 80.000Đ</div>
-            </div>
-            <div class="item">
-                <img src="Img/pr_mancb.png" height="280" width="280" alt="">
-                <div class="stars">
-                        <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                        </span>
-                    <span>
-                            <img src="Img/icons8-star-48.png" alt="">
-                       </span>
-
-
-
-                </div>
-                <div class="name">Mận Bắc Giang</div>
-                <div class="desc">Cây ăn quả</div>
-                <div class="price"> 90.000Đ</div>
-            </div>
+                    <%
+    }
+} else {
+%>
+                <div class="no-products">Không có sản phẩm nào.</div>
+                    <%
+}
+%>
         </ul>
         <div class="list-page">
             <div class="item">

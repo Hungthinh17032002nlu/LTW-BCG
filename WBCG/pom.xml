@@ -18,13 +18,18 @@
   </properties>
 
 
-  <!-- JavaServer Pages API 2.3 for tomcat 9 -->
+
 
   <dependencies>
     <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.30</version>
+    </dependency>
+    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
-      <version>4.0.1</version> <!-- Hoặc phiên bản mới nhất -->
+      <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -39,6 +44,11 @@
       <version>${junit.version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.sonatype.sisu</groupId>
+          <artifactId>sisu-inject-bean</artifactId>
+          <version>1.4.2</version>
+      </dependency>
   </dependencies>
 
   <build>

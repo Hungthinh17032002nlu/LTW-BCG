@@ -10,15 +10,180 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1686ed30-269c-4d91-be9f-48be3a65724f" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/contact.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/PageProducts/ListProducts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/Pagging/ListProductPaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/Product/ListProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/Product/ProductDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/dao/PageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_100 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_37pr_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_99 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_buoidaxanh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_buoidien.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_daof.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_kiwi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Img/pr_logo6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/Product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/6894255.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/CSS/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/contact2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/nen_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_cd.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_lg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/contact/pr_logo7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/controllers/ProductDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/java/hcmuef/edu/fit/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WBCG/src/main/webapp/homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/WBCG/src/main/webapp/homepage.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +215,31 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2bOBInu0R90zbHU6HD4F7sckMa9" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.0.85.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/LTW-BCG/WBCG/src/main/webapp/Img",
+    "last_opened_file_path": "C:/Users/Admin/IdeaProjects/LTBCG",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,11 +253,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\Img" />
+      <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\CSS" />
       <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp" />
+      <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\Img" />
       <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\java\hcmuef\edu\fit\db" />
       <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\Cart" />
-      <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\Checkout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\CSS" />
@@ -94,21 +267,14 @@
       <recent name="C:\Users\Admin\IdeaProjects\LTW-BCG\WBCG\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="hcmuef.edu.fit.controllers" />
+      <recent name="hcmuef.edu.fit.controllers.Product" />
+      <recent name="hcmuef.edu.fit.dao" />
+      <recent name="hcmuef.edu.fit.controllers.PageProducts" />
+      <recent name="hcmuef.edu.fit.pageProducts" />
+      <recent name="hcmuef.edu.fit.controllers.Pagging" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/vanthang3660_war/homepage.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -197,6 +363,84 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="db57d9e9-6e4c-407c-bc5d-156d0a7ac7c8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58930" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -218,6 +462,11 @@
       <workItem from="1706180224371" duration="9620000" />
       <workItem from="1706193471123" duration="4000" />
       <workItem from="1706201440104" duration="9781000" />
+      <workItem from="1706243907268" duration="1492000" />
+      <workItem from="1706245677867" duration="8803000" />
+      <workItem from="1706255459625" duration="638000" />
+      <workItem from="1706256907733" duration="692000" />
+      <workItem from="1706257662177" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -235,7 +484,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706210798575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1706244188947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706244188947</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1706244245222</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706244245222</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +518,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>

@@ -10,6 +10,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import static hcmuef.edu.fit.db.JDBCConnector.getConnection;
 
@@ -72,7 +74,7 @@ public class ProductDAO {
             connection = getConnection();
 
             // Viết truy vấn SQL để lấy sản phẩm theo Id_Product
-            String sql = "SELECT * FROM products WHERE Id_Product = ?";
+            String sql = "SELECT * FROM product WHERE Id = ?";
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.setString(1, productId);
 
@@ -107,6 +109,57 @@ public class ProductDAO {
 
     private void closeResources(ResultSet resultSet, PreparedStatement preparedStatement, Connection connection) {
     }
+    public List<Products> getTopproduct() {
+        List<Products> listProducts = new ArrayList<>();
+
+        try {
+            Connection connection = JDBCConnector.getConnection();
+            PreparedStatement statement;
+            String query = "SELECT * FROM product ORDER BY product_sold DESC LIMIT 5";
+            statement = connection.prepareStatement(query);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Products product =  new Products(
+                        resultSet.getInt("Id"),
+                        resultSet.getString("name_product"),
+                        resultSet.getInt("price"),
+                        resultSet.getString("category"),
+                        resultSet.getString("description")
+                );
+                setImageInProduct(product);
+                listProducts.add(product);
+            }
+
+            return listProducts;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public Products getProductsDetail(String id_Product) {
+        Connection connection = JDBCConnector.getConnection();
+        String query = "SELECT * FROM product where Id=?";
+        try {
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setString(1, id_Product);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Products product =  new Products(
+                        resultSet.getInt("Id"),
+                        resultSet.getString("name_product"),
+                        resultSet.getInt("price"),
+                        resultSet.getString("category"),
+                        resultSet.getString("description")
+                );
+                setImageInProduct(product);
+                return product;
+            }
+        } catch (SQLException e) {
+            Logger.getLogger(ProductDAO.class.getName()).log(Level.SEVERE, null, e);
+        }
+        return null;
+    }
 }
+
+
 
 

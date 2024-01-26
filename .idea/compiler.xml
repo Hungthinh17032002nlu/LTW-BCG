@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="vanthang3660" />
         <module name="Web-BCG" />
+        <module name="WBCG" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
